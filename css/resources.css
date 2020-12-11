@@ -1,0 +1,94 @@
+body{
+    background-color: #F3ECE7;
+}
+
+.navbar{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 8rem;
+    font-size: 20px;
+    background-color: #8F5B34 !important;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.nav-item{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.jumbotron {
+  padding-left: 0;
+  position:relative;
+  overflow:hidden;
+  height: 55%;
+}
+
+.jumbotron .container {
+  margin-top: 8%;
+  margin-left: 10%;
+  position:relative;
+  z-index:2;
+  background:rgba(0,0,0,0.5);
+  padding:2rem;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius:3px;
+}
+
+.jumbotron-background {
+  object-fit:cover;
+  position:absolute;
+  top:0;
+  z-index:1;
+  height:100%;
+  filter: blur(4px);
+
+}
+
+.link{
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
+
+}
+
+.grid{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header{
+  display: flex;
+  font-size: 3.5em;
+  position: relative;
+  color: white;
+  background-color: #B08B70;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5rem;
+  margin-left: 7rem;
+  width: fit-content;
+
+
+}

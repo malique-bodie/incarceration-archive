@@ -1,0 +1,122 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F3ECE7;
+}
+
+.navbar{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 8rem;
+    font-size: 20px;
+    background-color: #8F5B34 !important;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.nav-item{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.jumbotron {
+  padding-left: 0;
+  position:relative;
+  overflow:hidden;
+  height: 55%;
+}
+
+.jumbotron .container {
+  margin-top: 8%;
+  margin-left: 10%;
+  position:relative;
+  z-index:2;
+  background:rgba(0,0,0,0.5);
+  padding:2rem;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius:3px;
+}
+
+.jumbotron-background {
+  object-fit:cover;
+  position:absolute;
+  top:0;
+  z-index:1;
+  height:100%;
+  filter: blur(4px);
+
+}
+
+.header{
+  display: flex;
+  font-size: 3.5em;
+  position: relative;
+  color: white;
+  background-color: #B08B70;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3rem;
+  width: fit-content;
+  margin: 0 auto;
+
+
+}
+
+.info{
+    max-width: 40%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-img{
+    width: 55%; /* This if for the object-fit */
+    height: 100%; /* This if for the object-fit */
+}
+
+.row{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icon{
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    align-self: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+
+}

@@ -1,206 +1,57 @@
-<!doctype html>
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/home.css">
 
-<html>
-  <head>
-    <title>Personas and Storyboarding</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
-
-  <body style="background-color: #25274d;">
-    <div class="wrapper">
-    <div class="title"> <h1>Personas & Storyboarding</h1></div>
-    <div class="head">
-        <h2>The Assignment:</h2>
-        <h3><ul>
-            <li>Select an interface in public view</li>
-            <li>Sketch and annotate a diagram of your interface</li>
-            <li>Interview users of interface and observe their behavior while interacting with it</li>
-            <li>Compile data into two distinct personas, and illustrate those personas using an empthy map</li>
-            <li>Create a storyboard illustrating one of the personas interacting with the interface</li>
-        </ul>
-        </h3>
-    </div>
-    <div class="interface">
-        <h1 style="background-color:#AAABB8;">Keurig Mini</h1>
-        <h3 style="background-color:#AAABB8;">A slim, minimal coffee maker designed to fit into small spaces
-            like a dorm room. Must refill water with each usage, to desired
-            amount. Has two buttons, power-on and brew.
-        </h3>
-
-        <img src="./img/Keurig.png" alt="keurig drawing">
-    </div>
-    <div class="interviews">
-        <h1>Interviews </h1>
-        <h3>Interview Questions: </h3>
-        <p>
-            <ol>
-                <li>How often do you use a Keurig?</li>
-                <li>What mood are you usually in when you use the Keurig?</li>
-                <li>Typically how long does it take to make a cup of coffee using the Keurig?</li>
-                <li>Have you interacted with other Keurig models before?</li>
-                <li>Just by looking at the object would you know how to begin brewing a cup?</li>
-                <li>On a scale of 1 to 5, one being easiest 5 being most difficult, how difficult was it to make a cup of coffee using the Keurig?</li>
-                <li>Is there anything about the interface that you would change?</li>
-                <li>Is there anything about the interface that you would like to keep?</li>
-                <li>Do you think the process of making coffee using the Keurig is straightforward?</li>
-                <li>How helpful do you think the button on the top is?</li>
-                <li>Did the lights on the buttons improve your experience with the product/ help with usage?</li>
-            </ol>
-        </p>
-    <br>
-        <h3>Interview Responses:</h3>
-        <div class="responses">
-            <div class="rcol">
-                <img class="usericon" src="./img/fuser.png" alt="male user icon">
-                <h4>User 1:<br></h4>
-                <p>
-                    <ul>
-                        <li>Has never used this Keurig model before</li>
-                        <li>Has used other models with screen and panel in the past</li>
-                        <li>Rated difficulty a 3 overall</li>
-                        <li>Says that the water tank was the most difficult part of the process</li>
-                        <li>Thinks the button on the top is helpful, but didn't notice the button flashing</li>
-                    </ul>
-                    <br>
-                </p>
+        <title>Digital Transgender Incarceration Archive</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Digital Transgender Incarceration Archive</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donate</a>
+                    </li>
+                </ul>
             </div>
-            <div class="rcol">
-                <img class="usericon" src="./img/muser.png" alt="male user icon">
-                <h4>User 2:</h4>
-                <p>
-                    <ul>
-                        <li>Uses this Keurig model every other day</li>
-                        <li>Has used other models with screen and panel in the past</li>
-                        <li>Rated difficulty a 2 overall</li>
-                        <li>Says that their first time using the interface was confusing, but by the second time they'd perfected it.</li>
-                        <li>Thinks the brew buttons size and flashing light is very helpful</li>
-                    </ul>
-                    <br>
-                </p>
+        </nav>
+        <!-- Jumbotron -->
+        <div class="jumbotron text-white">
+            <div class="jumbotron-background">
+                <img src="https://media.them.us/photos/5a8199eab893e7000f9f02df/4:3/w_1888,h_1416,c_limit/GettyImages-585884990.jpg">
             </div>
-            <div class="rcol">
-                <img class="usericon" src="./img/fuser.png" alt="male user icon">
-                <h4>User 3:</h4>
-                <p>
-                    <ul>
-                        <li>Has used this Keurig model before but now frequently</li>
-                        <li>Uses other models of Keurig more frequently</li>
-                        <li>Rated difficulty 2 overall</li>
-                        <li>Says remembering to fill water tank before brewing is hardest part</li>
-                        <li>Thinks the button on the top is helpful, nd the lights are a useful addition</li>
-                    </ul>
-                </p>
-                <br>
+            <div class="container">
+                <h1 class="display-1">Digital Transgender Incarceration Archive</h1>
+                <h3 >A digital archive containing a consolidation of resources and data pertaining to incarcerated transgender women</h3>
             </div>
         </div>
-    </div>
-    <h1>Observations</h4>
-        <div class="observations">
-            <div class="observations">
-                <div class="ocol">
-                    <h4>User 1:<br></h4>
-                        <p>
-                            Quickly pulled up the lever and removed the old k-cup, and inserted the new one.
-                            Closed lever and hesitantly looked around to see what step to do next.
-                            After a couple seconds of confusion, they pressed the brew button and then quickly turned it off after the loud sound it made from brewing with no water.
-                            They then looked in the back at the water tank and realized that the next step was to insert water. They filled the tank, closed the lid and saw the big button on the top was flashing so they pressed it and the coffee brewed.
-                        <br>
-                    </p>
-                </div>
-                <div class="ocol">
-                    <h4>User 2:</h4>
-                        <p>
-                            Was very swift with all of their actions.
-                            Opened the lid, removed the old cartridge and added the new one, filled the water tank, closed it and pressed the button on the top.
-                            The entire process took less than a minute (not including the brew time of the coffee).
-                            <br>
-                        </p>
-                </div>
-                <div class="ocol">
-                    <h4>User 3:</h4>
-                        <p>
-                            Actions were slightly hesitant, slowly lifted the handle and removed the old cartridge and inserted the new one.
-                            Then looked around the machine to find the water tank and opened it, filled the water and closed it.
-                             Pressed the flashing button on the top and finished. Made no incorrect actions but was slightly hesitant when going through the process.
+        <!-- Footer -->
+        <footer class="page-footer font-small blue">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://www.linkedin.com/in/malique-bodie"> Digital Transgender Incarceration Archive</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
 
-                        </p>
-                        <br>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="personas">
-            <h1>Personas</h1>
-            <br>
-            <h2>Anxious Andre</h2>
-            <div class="prow">
-                <div class="pcol">
-                    <p>
-                        Anxious Andre is a college student stressing to finish a project before its deadline.
-                        He isn't the frequent coffee drinker, as it makes him more anxious than he already is,
-                        but turns to coffee in order to successfully pull an all-nighter and complete his project.
-                    </p>
-                    <ul>
-                        <li>Forgets to fill water before brewing</li>
-                        <li>Has difficulty locating water tank</li>
-                        <li>Unsure if coffee is brewing</li>
-                    </ul>
-                    <p>
-                        This persona represents the users because it encompasses all of there experiences when
-                        they first used the interface. User 1 had the same difficulties as this persona, as did
-                        user 2 when they first used the Keurig. This persona illustrtes the unsureness and anxiety
-                        that the interface can cause when first used.
-                    </p>
-                </div>
-                <img src="./img/Persona1.jpg" alt="empathy map" class="empmap">
-            </div>
-            <br>
-            <h2>Confident Candice</h2>
-            <div class="prow">
-                <div class="pcol">
-                    <p>
-                        Confident Candice is a college senior, who has secured a job post-grad and is a month out
-                        from graduation. Candice is the frequent coffee drinker, making a cup every morning with breakfast.
-                    </p>
-                    <ul>
-                        <li>Doesn't have many issues with the interface</li>
-                        <li>Views interface as streamline process that's almost habitual at this point</li>
-                    </ul>
-                    <p>
-                        This persona represents the users once they have experience with the interface and
-                        are more comfortable using it / have less problems. The second and third users interviewed
-                        both had experience with the interface, and both rated the difficulty using it lower than the
-                        user who had no experience. This suggests that over repeated useage the user gains confidence while
-                        using the interface to the point that using it becomes habitual.
-                    </p>
-            </div>
-                <img src="./img/Person2.jpg" alt="empathy map" class="empmap">
-            </div>
-        </div>
-        <br>
-        <div class="storyboard">
-            <h1>Storyboard</h1>
-            <div class="imggrid">
-                    <img src="./img/sb/sb1.png"
-                     alt="When I Get Home - Solange">
-                     <img src="./img/sb/sb2.png"
-                     alt="Negro Swan - Devante Hynes">
-                     <img src="./img/sb/sb3.png"
-                     alt="Blond - Frank Ocean">
-                     <img src="./img/sb/sb4.png"
-                     alt="The Life of Pablo - Kanye West">
-                     <img src="./img/sb/sb5.png"
-                     alt="Good Kid, m.A.A.d City - Kendrick Lamar">
-                     <img src="./img/sb/sb6.png"
-                     alt="Man on the Moon - Kid Cudi">
-                     <img src="./img/sb/sb7.png"
-                     alt="Baduizm - Erykah Badu">
-                     <img src="./img/sb/sb8.png"
-                     alt="Miseducation of Lauryn Hill - Lauryn Hill">
-                     <img src="./img/sb/sb9.png" alt="story board image 9">
-            </div>
-        </div>
-  </body>
+
+    </body>
 </html>
